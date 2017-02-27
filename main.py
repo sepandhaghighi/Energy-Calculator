@@ -2,6 +2,20 @@ import os
 import sys
 DEBUG=True
 warning_numbers=0
+version=0.1
+logo='''
+   __                            __       _
+  /  `                          /  )     //
+ /--  ____  _  __  _,  __  ,   /   __.  // _.
+(___,/ / <_</_/ (_(_)_/ (_/_  (__/(_/|_</_(__
+                   /|    /
+                  |/    '
+    '''
+def print_sign():
+    print(logo)
+    print_line(70, "-")
+    print("Version :"+str(version))
+    print_line(70,"-")
 def print_line(number,char="*"):
     index=0
     response=""
@@ -98,4 +112,5 @@ def get_input():
             print(str(e))
 
 if __name__=="__main__":
+    print_sign()
     print(get_input())
