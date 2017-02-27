@@ -1,5 +1,6 @@
 import os
 import sys
+import datetime
 DEBUG=True
 warning_numbers=0
 version=0.1
@@ -12,17 +13,29 @@ logo='''
                   |/    '
     '''
 def print_sign():
+    '''
+    This function print logo and version
+    :return: None
+    '''
     print(logo)
-    print_line(70, "-")
+    print(line(70, "-"))
     print("Version :"+str(version))
-    print_line(70,"-")
-def print_line(number,char="*"):
+    print(line(70,"-"))
+def line(number,char="*"):
+    '''
+    This function return line sign
+    :param number: number of char
+    :type number:int
+    :param char: char item
+    :type char:str
+    :return: response line as str
+    '''
     index=0
     response=""
     while(index<number):
         index+=1
         response+=char
-    print(response)
+    return response
 def convert(num):
     '''
     This function convert number
@@ -82,7 +95,7 @@ def seperator(input_string,char=","):
         global warning_numbers
         warning_numbers+=1
         print(str(warning_numbers)+"-Warning : Some issue In this line -->",input_string)
-        print_line(70)
+        print(line(70))
         return [0,0,0,0,0]
 def find_ref():
     '''
@@ -101,16 +114,27 @@ def get_input():
             print("There is no ref file")
             sys.exit()
         file=open(file_name,"r")
-        for line in file:
-            coefficients=seperator(line)
-            total_amount+=coefficients[1]*coefficients[2]*coefficients[3]*coefficients[4]
+        output_file=open("energy.out","w")
+        output_file.write(str(datetime.datetime.now())+"\n")
+        output_file.write(line(70)+"\n")
+        for item in file:
+            coefficients=seperator(item)
+            item_usage=coefficients[1]*coefficients[2]*coefficients[3]*coefficients[4]
+            if item_usage!=0:
+                output_file.write(coefficients[0]+" --> "+convert(item_usage)+"\n")
+            total_amount+=item_usage
+        output_response=convert(total_amount)
+        output_file.write(line(70)+"\n"+"Total :"+output_response)
         file.close()
-        return convert(total_amount)
+        output_file.close()
+        return output_response
     except Exception as e:
         print("Error")
+        if output_file.closed==False:
+            output_file.close()
         if DEBUG==True:
             print(str(e))
 
 if __name__=="__main__":
     print_sign()
-    print(get_input())
+    print("Total :"+get_input())
