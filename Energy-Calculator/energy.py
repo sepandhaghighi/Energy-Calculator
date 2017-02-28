@@ -20,6 +20,7 @@ def print_sign():
     print(logo)
     print(line(70, "-"))
     print("Version :"+str(version))
+    print("By Sepand Haghighi")
     print(line(70,"-"))
 def line(number,char="*"):
     '''
