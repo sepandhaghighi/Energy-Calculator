@@ -9,11 +9,15 @@ Simple Energy Calculator
 
 
 ```
-Item Name,Wattage,Number of appliances,Hours used per day,Days used per year 
+Item Name , Wattage , Number of appliances , Hours used per day , Days used per year 
 ```					
 
 
-- Run main.py
+- Run energy.py					
+
+```
+python3 energy.py
+```
 
 
 ## Output
