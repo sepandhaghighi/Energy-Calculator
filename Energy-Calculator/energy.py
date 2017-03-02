@@ -44,7 +44,7 @@ def convert(num):
     :type num:int
     :return: output string
     '''
-    for x in ['wh', 'kwh', 'mwh', 'gwh']:
+    for x in ['wh', 'Kwh', 'Mwh', 'Gwh']:
         if num < 1000:
             return "%3.1f %s" % (num, x)
         num /= 1000
