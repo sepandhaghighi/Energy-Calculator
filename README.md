@@ -8,11 +8,20 @@ Simple Energy-Calculator Script In Python
 
 
 
-- Just import data for each row in [input.ref](https://github.com/sepandhaghighi/Energy-Calculator/blob/master/Energy-Calculator/input.ref "input.ref") file							
+- Just import data for each row in [input.ref](https://github.com/sepandhaghighi/Energy-Calculator/blob/master/Energy-Calculator/input.ref "input.ref") file (adding expression is possible)						
 
 
 ```
 Item Name , Wattage , Number of appliances , Hours used per day , Days used per year 
+```
+
+```
+Monitor,42,2,3,4
+```
+
+				
+```
+Iron,1100,2*10,30,30*3
 ```					
 
 
