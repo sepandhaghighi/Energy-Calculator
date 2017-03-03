@@ -87,10 +87,10 @@ def seperator(input_string,char=","):
     try:
         seperated_data = input_string.split(char)
         key = seperated_data[0]
-        wattage = int(seperated_data[1])
-        number = int(seperated_data[2])
-        hours_per_day = check_constraint(int(seperated_data[3]), mode=1)
-        days_per_year = check_constraint(int(seperated_data[4]), mode=2)
+        wattage = eval(seperated_data[1])
+        number = eval(seperated_data[2])
+        hours_per_day = check_constraint(eval(seperated_data[3]), mode=1)
+        days_per_year = check_constraint(eval(seperated_data[4]), mode=2)
         return [key,wattage,number,hours_per_day,days_per_year]
     except:
         global warning_numbers
