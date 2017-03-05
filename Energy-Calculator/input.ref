@@ -10,7 +10,7 @@ Compactors,400,0,0,0
 PC,75,0,0,0
 Laptop,25,0,0,0
 Deep Fryer,1000,0,0,0
-Monitor,2*21,0,0,0
+Monitor,42,0,0,0
 Dishwasher,330,0,0,0
 DVD/VCR,17,0,0,0
 Electric Blanket,400,0,0,0
@@ -45,6 +45,6 @@ Video Game System,36,0,0,0
 Water Heater,4500,0,0,0
 Waterbed Heater,350,0,0,0
 Well Pump,725,0,0,0
-Elevator,350,0,0,0
+Elevator,2000,0,0,0
 Fluorescent-Tube,43,0,0,0
 Lamp,100,0,0,0

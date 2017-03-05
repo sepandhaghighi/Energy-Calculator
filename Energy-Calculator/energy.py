@@ -3,7 +3,7 @@ import sys
 import datetime
 DEBUG=True
 warning_numbers=0
-version=0.1
+version=0.2
 logo='''
    __                            __       _
   /  `                          /  )     //
@@ -108,22 +108,31 @@ def find_ref():
             return item
     return "NOFILE"
 def get_input():
+    counter=0
     try:
         total_amount=0
         file_name=find_ref()
         if file_name=="NOFILE":
             print("There is no ref file")
+            input()
             sys.exit()
         file=open(file_name,"r")
         output_file=open("energy.out","w")
+        output_file.write(logo+"\n")
         output_file.write(str(datetime.datetime.now())+"\n")
         output_file.write(line(70)+"\n")
         for item in file:
             coefficients=seperator(item)
             item_usage=coefficients[1]*coefficients[2]*coefficients[3]*coefficients[4]
             if item_usage!=0:
-                output_file.write(coefficients[0]+" --> "+convert(item_usage)+"\n")
+                counter += 1
+                output_file.write(str(counter)+"-"+coefficients[0]+" --> "+convert(item_usage)+"\n")
+                print(str(counter)+"-"+coefficients[0]+" --> "+convert(item_usage))
             total_amount+=item_usage
+        if counter==0:
+            print("Please fill input.ref file!")
+            output_file.write("Please fill input.ref file!")
+        print(line(70, "*"))
         output_response=convert(total_amount)
         output_file.write(line(70)+"\n"+"Total :"+output_response)
         file.close()
@@ -135,7 +144,9 @@ def get_input():
             output_file.close()
         if DEBUG==True:
             print(str(e))
+        input()
 
 if __name__=="__main__":
     print_sign()
     print("Total :"+get_input())
+    input()
