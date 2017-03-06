@@ -1,8 +1,17 @@
+<div align="center"><img src="http://www.shaghighi.ir/photos/Energy.png" height=320px width=240px>
+</br>
+<a href="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/?branch=master"><img src="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/badges/quality-score.png?b=master"></a>
+<a href="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/build-status/master"><img src="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/badges/build.png?b=master"></a>		
+
+
+</div>
+
+----------
+
 # Energy-Calculator
 Simple Energy-Calculator Script In Python
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/?branch=master)			
-[![Build Status](https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/build-status/master)
+
 
 ## Usage			
 
