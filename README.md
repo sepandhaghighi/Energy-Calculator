@@ -57,7 +57,7 @@ You can fork the repository, improve or fix some part of it and then send the pu
 Remember to write a few tests for your code before sending pull requests. 
 
 
-##License
+## License
 
 <a href="https://github.com/sepandhaghighi/Energy-Calculator/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"/></a>
 		
