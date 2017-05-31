@@ -1,4 +1,4 @@
-<div align="center"><img src="http://www.shaghighi.ir/photos/Energy.png" height=320px width=240px>
+<div align="center"><img src="http://www.shaghighi.ir/Energy-Calculator/files/Energy.png" height=320px width=240px>
 </br>
 <a href="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/?branch=master"><img src="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/badges/quality-score.png?b=master"></a>
 <a href="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/build-status/master"><img src="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/badges/build.png?b=master"></a>		
@@ -13,11 +13,19 @@ Simple Energy-Calculator Script In Python
 
 
 
-## Usage			
+## Installation & Usage			
 
 
 
-- Just import data for each row in [input.ref](https://github.com/sepandhaghighi/Energy-Calculator/blob/master/Energy-Calculator/input.ref "input.ref") file (adding expression is possible)						
+<div align="center">
+
+	
+<img src="http://www.shaghighi.ir/Energy-Calculator/files/install.gif">
+
+</div>
+
+- import data for each row in [input.ref](https://github.com/sepandhaghighi/Energy-Calculator/blob/master/Energy-Calculator/input.ref "input.ref") file (adding expression is possible)
+- Re-Run Energy-Calculator						
 
 
 ```
@@ -32,13 +40,8 @@ Monitor,42,2,3,4
 ```
 Iron,1100,2*10,30,30*3
 ```					
+			
 
-
-- Run energy.py					
-
-```
-python3 energy.py
-```
 
 
 ## Output
@@ -67,6 +70,6 @@ Remember to write a few tests for your code before sending pull requests.
 Ref file created by US Department Of Energy Tables   						
 
  
-![US Department Of Energy](http://www.qpage.ir/images/doe.png)
+![US Department Of Energy](http://www.shaghighi.ir/Energy-Calculator/files/doe.png)
 
 
