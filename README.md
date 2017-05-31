@@ -66,11 +66,8 @@ Remember to write a few tests for your code before sending pull requests.
 
 ## License
 
-<a href="https://github.com/sepandhaghighi/Energy-Calculator/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"/></a>
+<a href="https://github.com/sepandhaghighi/Energy-Calculator/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"/></a>				
 		
-
-## Reference
-
 Ref file created by US Department Of Energy Tables   						
 
  
