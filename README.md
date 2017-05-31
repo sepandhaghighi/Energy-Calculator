@@ -25,9 +25,13 @@ Simple Energy-Calculator Script In Python
 </div>
 
 - import data for each row in [input.ref](https://github.com/sepandhaghighi/Energy-Calculator/blob/master/Energy-Calculator/input.ref "input.ref") file (adding expression is possible)
-- Re-Run Energy-Calculator						
+- Re-Run Energy-Calculator
+```
+python -m Energy-Calculator
+```						
 
-
+## Ref file				
+	
 ```
 Item Name , Wattage , Number of appliances , Hours used per day , Days used per year 
 ```
