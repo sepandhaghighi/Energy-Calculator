@@ -146,7 +146,3 @@ def get_input():
             print(str(e))
         input()
 
-if __name__=="__main__":
-    print_sign()
-    print("Total :"+get_input())
-    input()
