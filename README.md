@@ -74,3 +74,8 @@ Ref file created by US Department Of Energy Tables
 ![US Department Of Energy](http://www.shaghighi.ir/Energy-Calculator/files/doe.png)
 
 
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/sepandhaghighi/Energy-Calculator/badge.svg?style=beer-square)](https://beerpay.io/sepandhaghighi/Energy-Calculator)  [![Beerpay](https://beerpay.io/sepandhaghighi/Energy-Calculator/make-wish.svg?style=flat-square)](https://beerpay.io/sepandhaghighi/Energy-Calculator?focus=wish)
