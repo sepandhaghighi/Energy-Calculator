@@ -80,7 +80,13 @@ Ref file created by US Department Of Energy Tables
 
 Hey dude! Help me out for a couple of :beers:!						
 
-[![Beerpay](https://beerpay.io/sepandhaghighi/Energy-Calculator/badge.svg?style=beer-square)](https://beerpay.io/sepandhaghighi/Energy-Calculator)  [![Beerpay](https://beerpay.io/sepandhaghighi/Energy-Calculator/make-wish.svg?style=flat-square)](https://beerpay.io/sepandhaghighi/Energy-Calculator?focus=wish)							
+[![Beerpay](https://beerpay.io/sepandhaghighi/Energy-Calculator/badge.svg?style=beer-square)](https://beerpay.io/sepandhaghighi/Energy-Calculator)  [![Beerpay](https://beerpay.io/sepandhaghighi/Energy-Calculator/make-wish.svg?style=flat-square)](https://beerpay.io/sepandhaghighi/Energy-Calculator?focus=wish)					
+
+<h3>Bitcoin :</h3>					
+
+```1XGr9qbZjBpUQJJSB6WtgBQbDTgrhPLPA```				
+
+						
 
 <h3>Payping (For Iranian citizens) :</h3>
 
