@@ -3,7 +3,7 @@ import sys
 import datetime
 DEBUG=True
 warning_numbers=0
-version=0.2
+version=0.3
 logo='''
    __                            __       _
   /  `                          /  )     //
@@ -114,6 +114,7 @@ def get_input():
         file_name=find_ref()
         if file_name=="NOFILE":
             print("There is no ref file")
+            print("You can download ref file from -- > www.shaghighi.ir/Energy-Calculator/files/input.ref")
             input()
             sys.exit()
         file=open(file_name,"r")
