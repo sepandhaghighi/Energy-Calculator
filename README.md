@@ -40,10 +40,10 @@ Simple Energy-Calculator Script In Python
 
 </div>
 
-- import data for each row in [input.ref](https://github.com/sepandhaghighi/Energy-Calculator/blob/master/Energy-Calculator/input.ref "input.ref") file (adding expression is possible)
+- import data for each row in [input.ref](http://www.shaghighi.ir/Energy-Calculator/files/input.ref "input.ref") file (adding expression is possible)
 - Re-Run Energy-Calculator
 ```
-python -m Energy-Calculator
+python -m energycalc
 ```						
 
 ## Ref file				
