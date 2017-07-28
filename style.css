@@ -58,3 +58,20 @@ hr{
     margin-top: 100px;
     height: auto;
 }
+
+@media all and (max-width: 1024px) {
+    
+    #login-footer{
+        font-size: 30px;
+    }  
+    .logo{
+        font-size: 30px;
+    }
+    
+    .button img{
+        height: 256px;
+        width: 256px;
+        margin-bottom: 20px;
+    }
+    
+}
