@@ -2,7 +2,7 @@
 </br>
 <a href="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/?branch=master"><img src="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/badges/quality-score.png?b=master"></a>
 <a href="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/build-status/master"><img src="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/badges/build.png?b=master"></a>		
-
+<a href="https://badge.fury.io/py/energycalc"><img src="https://badge.fury.io/py/energycalc.svg" alt="PyPI version" height="18"></a>
 <a href="https://zenodo.org/badge/latestdoi/83356476"><img src="https://zenodo.org/badge/83356476.svg" alt="DOI"></a>
 
 
