@@ -63,7 +63,17 @@ or send an email to [sepand@qpage.ir](mailto:sepand@qpage.ir "sepand@qpage.ir").
 
 You can fork the repository, improve or fix some part of it and then send the pull requests back if you want to see them here. I really appreciate that. ❤️			
 
-Remember to write a few tests for your code before sending pull requests. 
+Remember to write a few tests for your code before sending pull requests. 			
+
+
+## Citing
+
+If you use EnergyCalc in your research , please cite this ;-)
+
+<blockquote>
+<p>[1]Sepand Haghighi. Energy-Calculator : Version 0.3 2017. doi:10.5281/zenodo.835590.</p>
+</blockquote>
+ 			
 
 
 ## License
