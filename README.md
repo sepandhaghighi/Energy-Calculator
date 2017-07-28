@@ -4,7 +4,8 @@
 <a href="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/build-status/master"><img src="https://scrutinizer-ci.com/g/sepandhaghighi/Energy-Calculator/badges/build.png?b=master"></a>		
 <a href="https://badge.fury.io/py/energycalc"><img src="https://badge.fury.io/py/energycalc.svg" alt="PyPI version" height="18"></a>
 <a href="https://zenodo.org/badge/latestdoi/83356476"><img src="https://zenodo.org/badge/83356476.svg" alt="DOI"></a>
-
+<a href="http://www.shaghighi.ir/Energy-Calculator"><img src="https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=website"></a>
+<a href="http://www.shaghighi.ir/Energy-Calculator/doc"><img src="https://img.shields.io/badge/doc-latest-blue.svg"></a>
 
 </div>
 
