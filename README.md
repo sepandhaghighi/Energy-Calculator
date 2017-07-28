@@ -14,8 +14,22 @@
 Simple Energy-Calculator Script In Python
 
 
+			
 
-## Installation & Usage			
+## Installation
+### Source Code
+- Download [Version 0.3](https://github.com/sepandhaghighi/Energy-Calculator/archive/v0.3.zip) or [Latest Source ](https://github.com/sepandhaghighi/Energy-Calculator/archive/master.zip)
+
+- `python3 setup.py install` or `python setup.py install`				
+
+### PyPI
+
+
+- Check [Python Packaging User Guide](https://packaging.python.org/installing/)     
+- `pip install energycalc` or `pip3 install energycalc`					
+
+
+## Usage			
 
 
 
