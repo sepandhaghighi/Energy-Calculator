@@ -1,5 +1,8 @@
 '''
 >>> from energycalc import *
+>>> import coverage
+>>> cov=coverage.Coverage()
+>>> cov.start()
 >>> line(5)
 '*****'
 >>> line(5,"&")
@@ -24,5 +27,7 @@
 ['2', 3, 4, 5, 6]
 >>> find_ref()
 'NOFILE'
+>>> cov.stop()
+>>> cov.save()
 
 '''
