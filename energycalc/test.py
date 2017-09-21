@@ -24,15 +24,19 @@
 0
 >>> seperator("2,3,4,5,6")
 ['2', 3, 4, 5, 6]
+>>> seperator("asdasd;ss")
+1-Warning : Some issue In this line --> asdasd;ss
+**********************************************************************
+[0, 0, 0, 0, 0]
 >>> seperator("2;3;4;5;6",char=";")
 ['2', 3, 4, 5, 6]
 >>> find_ref()
-'input.ref'
+'test.ref'
 >>> get_input(func=test_function)
 Please fill input.ref file!
 **********************************************************************
 '0.0 wh'
->>> os.remove("input.ref")
+>>> os.remove("test.ref")
 >>> find_ref()
 'NOFILE'
 >>> get_input(func=test_function)
