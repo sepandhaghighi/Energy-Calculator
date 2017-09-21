@@ -39,6 +39,19 @@ Please fill input.ref file!
 Traceback (most recent call last):
         ...
 SystemExit
+>>> print_sign()
+<BLANKLINE>
+   __                            __       _
+  /  `                          /  )     //
+ /--  ____  _  __  _,  __  ,   /   __.  // _.
+(___,/ / <_</_/ (_(_)_/ (_/_  (__/(_/|_</_(__
+                   /|    /
+                  |/    '
+<BLANKLINE>
+----------------------------------------------------------------------
+Version :0.3
+By Sepand Haghighi
+----------------------------------------------------------------------
 >>> cov.stop()
 >>> cov.save()
 
