@@ -6,6 +6,9 @@
 <a href="https://zenodo.org/badge/latestdoi/83356476"><img src="https://zenodo.org/badge/83356476.svg" alt="DOI"></a>
 <a href="http://www.shaghighi.ir/Energy-Calculator"><img src="https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=website"></a>
 <a href="http://www.shaghighi.ir/Energy-Calculator/doc"><img src="https://img.shields.io/badge/doc-latest-blue.svg"></a>
+<a href="https://codecov.io/gh/sepandhaghighi/Energy-Calculator">
+  <img src="https://codecov.io/gh/sepandhaghighi/Energy-Calculator/branch/master/graph/badge.svg" alt="Codecov" />
+</a>
 
 </div>
 

@@ -33,9 +33,11 @@
 >>> find_ref()
 'test.ref'
 >>> get_input(func=test_function)
-Please fill input.ref file!
+1-Laptop --> 200.0 wh
+2-Deep Fryer --> 8.0 Kwh
+3-Monitor --> 336.0 wh
 **********************************************************************
-'0.0 wh'
+'8.5 Kwh'
 >>> os.remove("test.ref")
 >>> find_ref()
 'NOFILE'
