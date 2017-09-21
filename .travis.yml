@@ -10,7 +10,7 @@ install:
   - python3 setup.py install
 
 script:
-  - wget ("http://www.shaghighi.ir/Energy-Calculator/test.ref")
+  - wget ("http://www.shaghighi.ir/Energy-Calculator/files/test.ref")
   - python3 -m energycalc test
 after_success:
   - codecov
