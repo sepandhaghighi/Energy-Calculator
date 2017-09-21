@@ -1,6 +1,7 @@
 '''
 >>> from energycalc import *
 >>> import coverage
+>>> import os
 >>> cov=coverage.Coverage()
 >>> cov.start()
 >>> line(5)
@@ -26,7 +27,18 @@
 >>> seperator("2;3;4;5;6",char=";")
 ['2', 3, 4, 5, 6]
 >>> find_ref()
+'input.ref'
+>>> get_input(func=test_function)
+Please fill input.ref file!
+**********************************************************************
+'0.0 wh'
+>>> os.remove("input.ref")
+>>> find_ref()
 'NOFILE'
+>>> get_input(func=test_function)
+Traceback (most recent call last):
+        ...
+SystemExit
 >>> cov.stop()
 >>> cov.save()
 

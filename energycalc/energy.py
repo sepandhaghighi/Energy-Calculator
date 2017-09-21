@@ -107,7 +107,7 @@ def find_ref():
         if item.find(".ref")!=-1:
             return item
     return "NOFILE"
-def get_input():
+def get_input(func=input):
     counter=0
     try:
         total_amount=0
@@ -115,7 +115,7 @@ def get_input():
         if file_name=="NOFILE":
             print("There is no ref file")
             print("You can download ref file from -- > www.shaghighi.ir/Energy-Calculator/files/input.ref")
-            input()
+            func()
             sys.exit()
         file=open(file_name,"r")
         output_file=open("energy.out","w")
@@ -145,5 +145,8 @@ def get_input():
             output_file.close()
         if DEBUG==True:
             print(str(e))
-        input()
+        func()
+
+def test_function():
+    return "test_item"
 
